@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 30px;
+    padding: 0;
+}
+.left {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:1;
+  
+  }
+  .right {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index:1;
+    
+    }
+.left {
+  background-color:#f4c2f9;
+  padding: 20px;
+  }  
+.right {
+  background-color: #bff0f3;
+  padding: 20px;
+  }
+h1{
+  color: #8c24e1;
+  text-align:left;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  color: #b73ab9;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
